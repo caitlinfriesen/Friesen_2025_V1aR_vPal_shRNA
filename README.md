@@ -1,9 +1,5 @@
 
 
-## 1
-
-## format: gfm
-
 <!-- README.md is generated from README.qmd. Please edit that file -->
 
 # About the project
