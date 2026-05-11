@@ -1,0 +1,19 @@
+Package: repository
+Title: Data and Code for Friesen et al. 2025 - Ventral Pallidum V1aR Knockdown
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Caitlin",
+          family = "Friesen",
+          role = c("aut", "cre"),
+          email = "cfriesen@gsu.edu", 
+          comment = c(ORCID = "0000-0003-3545-6625"))
+Description: This repository contains the data and code for Friesen et al. 
+    2025. Sex difference in the effects of ventral pallidum vasopressin 1a 
+    receptor partial knockdown on social behavior in mice. 
+    Hormones and Behavior, 174, 105792.
+License: CC BY 4.0
+ByteCompile: true
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
