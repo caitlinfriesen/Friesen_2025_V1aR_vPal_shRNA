@@ -1,0 +1,114 @@
+
+
+## 1
+
+## format: gfm
+
+<!-- README.md is generated from README.qmd. Please edit that file -->
+
+# About the project
+
+This is a repository containing data and R code for the paper:
+
+**Sex difference in the effects of ventral pallidum vasopressin 1a
+receptor partial knockdown on social behavior in mice**. Contributed by
+[Caitlin Friesen](https://github.com/caitlinfriesen).
+
+This repository contains the data and code for our paper:
+
+*Sex difference in the effects of ventral pallidum vasopressin 1a
+receptor partial knockdown on social behavior in mice* Caitlin N.
+Friesen, Delenn Hartswick, Alexandra Selke, Geert J. de Vries, Aras
+Petrulis Neuroscience Institute & Center for Behavioral Neuroscience,
+Georgia State University *Hormones and Behavior* (2025) \| doi:
+https://doi.org/10.1016/j.yhbeh.2025.105792
+
+## How to cite
+
+Please cite the permanent Zenodo record for the compendium as:
+
+Friesen, C.N., Hartswick, D., Selke, A., de Vries, G.J., & Petrulis, A.
+(2025). Code documentation for Sex difference in the effects of ventral
+pallidum vasopressin 1a receptor partial knockdown on social behavior in
+mice (v1.0). Zenodo. <https://doi.org/10.5281/zenodo.XXXXXXX>
+
+------------------------------------------------------------------------
+
+## Abstract
+
+The neuropeptide vasopressin (AVP) regulates a diverse array of social
+behaviors, often having different functions in males and females. This
+sex difference is due, in part, to the AVP cells in the bed nucleus of
+the stria terminalis (BNST), which are more numerous in males than in
+females. These AVP cells send stronger projections to several brain
+regions that express the vasopressin 1a receptor (V1aR), including the
+ventral pallidum (vPal), an area broadly implicated in reward-seeking
+behavior. Previous experiments manipulating V1aR in vPal have found that
+activation of V1aR in this area mediates AVP effects on social behavior
+with differential effects on male and female rats across different
+social contexts. Consequently, to better understand the role of V1aR in
+vPal, we reduced V1aR expression in the vPal using a viral-mediated
+RNA-interference approach in male and female mice and tested their
+social investigatory, aggressive, copulatory and communicative responses
+to male and female conspecifics as well as their responses to anxiogenic
+or rewarding stimuli. Partial knockdown of V1aR in vPal of males reduced
+their social investigation of other males, but not of females, whereas
+the same manipulation had no effect on social investigation in females.
+In addition, partial knockdown in males reduced latencies to ejaculate
+during copulation. Reduction in V1aR within vPal did not influence
+communicative and aggressive behaviors, urine investigation,
+anxiety-like behavior, or sucrose preference. These results suggest that
+V1aR activity in the vPal specifically facilitates intermale
+investigation in adult mice but normally dampens their ejaculatory
+behavior.
+
+------------------------------------------------------------------------
+
+## Contents
+
+- 📁 **analysis/data/raw_data/** — Raw behavioral data including social
+  investigation, aggression, copulation, and communication measures,
+  plus subject-level metadata (sex, treatment group, surgery details)
+
+- 📁 **analysis/data/derived_data/** — Data generated during analysis
+
+- 📁 **analysis/figures/** — Plots and other illustrations
+
+- 📁 **R/** — Custom R functions used across analyses
+
+------------------------------------------------------------------------
+
+## How to run locally
+
+This project was developed in R. To work with the code you will need
+[R](https://cloud.r-project.org/) (≥ 4.2.0) and optionally [RStudio
+Desktop](https://rstudio.com/products/rstudio/download/).
+
+To download the repository, click **Code → Download ZIP** at the top of
+this page and unzip it, or clone it via the command line:
+
+``` bash
+git clone https://github.com/caitlinfriesen/Friesen_2025_V1aR_vPal_shRNA.git
+```
+
+Open the `.Rproj` file in RStudio, then run `devtools::install()` to
+install all required packages (also listed in the
+[DESCRIPTION](./DESCRIPTION) file).
+
+------------------------------------------------------------------------
+
+## How to cite
+
+If you use these data or code, please cite:
+
+> Friesen CN, Hartswick D, Selke A, de Vries GJ, Petrulis A (2025). Sex
+> difference in the effects of ventral pallidum vasopressin 1a receptor
+> partial knockdown on social behavior in mice. *Hormones and Behavior*,
+> 174, 105792. https://doi.org/10.1016/j.yhbeh.2025.105792
+
+------------------------------------------------------------------------
+
+## Acknowledgements
+
+This project is modified after
+<https://annakrystalli.me/rrresearch/10_compendium.html>.

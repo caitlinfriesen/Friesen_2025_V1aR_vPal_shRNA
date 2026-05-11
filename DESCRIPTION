@@ -1,7 +1,7 @@
 Package: repository
 Title: Data and Code for Friesen et al. 2025 - Ventral Pallidum V1aR Knockdown
 Version: 0.0.0.9000
-Authors@R: 
+Authors@R:
     person(given = "Caitlin",
           family = "Friesen",
           role = c("aut", "cre"),
@@ -19,3 +19,6 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 8.0.0
 URL: https://github.com/caitlinfriesen/repository
 BugReports: https://github.com/caitlinfriesen/repository/issues
+Imports: here
+Suggests: devtools,
+    git2r
