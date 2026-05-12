@@ -11,7 +11,7 @@ Description: This repository contains the data and code for Friesen et al.
     2025. Sex difference in the effects of ventral pallidum vasopressin 1a 
     receptor partial knockdown on social behavior in mice. 
     Hormones and Behavior, 174, 105792.
-License: CC BY 4.0
+License: MIT + file LICENSE
 ByteCompile: true
 Encoding: UTF-8
 LazyData: true

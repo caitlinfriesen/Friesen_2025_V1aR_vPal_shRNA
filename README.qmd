@@ -24,7 +24,7 @@ Please cite the permanent Zenodo record for the compendium as:
 Friesen, C.N., Hartswick, D., Selke, A., de Vries, G.J., & Petrulis, A. (2025).
 Code documentation for Sex difference in the effects of ventral pallidum vasopressin 1a receptor partial knockdown on social behavior in mice
 (v1.0). Zenodo.
-<https://doi.org/10.5281/zenodo.XXXXXXX>
+<https://doi.org/10.5281/zenodo.20130871>
 
 ---
 
